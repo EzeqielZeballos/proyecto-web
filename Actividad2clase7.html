@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Inicio de sesion para servicios de Novell</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+
+    <label for="nom"> Nombre </label> <br>
+    <input type="text" name="NombreUsuario" id="nom" maxlength="10"><br>
+
+    <label for="contra">contraseña</label><br>
+    <input type="password" name="contraseñausuario" id="contra"><br>
+
+    <label for="ciudad">ciudad del empleado</label><br>
+    <input type="text" name="ciudadempleado" id="ciudad"><br>
+
+    <label for="Web">Servidores Web</label><br>
+        <select name="Servidoresweb" id="Web">
+            <option>Seleccione un servidor</option>
+            <option value="arg">Chroome</option>
+            <option value="Chi">Cuevana</option>
+            <option value="Uru">Brave</option>
+        </select><br>
+
+    <label> Seleccione su especialidad </label> <br>
+
+        <input type="radio" name="puesto" value="Admin" id="ad" >
+        <label for="ad">Admin</label><br>
+    
+        <input type="radio" name="puesto" value="Engener" id="En">
+        <label for="En"> Engener </label><br>
+
+
+        <input type="radio" name="puesto" value="Manager" id="ma" >
+        <label for="ma">Manager</label><br>
+
+        <input type="radio" name="puesto" value="Guest" id="gu">
+        <label for="gu"> Guest </label><br>
+
+        <label> Por favor seleccione a lo siguiente</label><br>
+
+        <input type="checkbox" name="coso" value="Mail" id="ail" >
+        <label for="ail">mail</label><br>
+    
+        <input type="checkbox" name="coso" value="payroll" id="pay">
+        <label for="pay"> payroll </label><br>
+
+
+        <input type="checkbox" name="coso" value="self-service" id="ss" >
+        <label for="ss">Self-service</label><br>
+
+        <input type="submit" name="Login" value="Guardar cambios">
+        <input type="reset" name="Reset" value="Borrar cambios ">
+        
+
+
+
+
+    </form>
+    
+</body>
+</html>

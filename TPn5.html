@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus datos</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+    <legend>DATOS PERSONALES</legend>
+        <label for="nom"> Nombre </label> 
+        <input type="text" name="NombreUsuario" id="nom" maxlength="10"><br>
+
+        <label for="ape"> Apellido </label> 
+        <input type="text" name="Apellido" id="ape" maxlength="10"><br>
+    
+        <label for="fechan">Fecha de nacimiento </label>
+        <input type="text" name="fechadenacimiento" id="fechan"><br>
+    
+        <label for="dni">DNI</label>
+        <input type="text" name="sudni" id="dni"><br>
+
+        <label>Sexo:</label><br>
+
+    <input type="radio" name="genero" value="Hombre" id="ma" >
+    <label for="ma">Hombre</label><br>
+
+    <input type="radio" name="genero" value="Mujer" id="fe">
+    <label for="fe"> Mujer </label><br>
+
+    <input type="radio" name="genero" value="Otro" id="otr" checked>
+    <label for="otr"> Otro </label><br>
+     
+    <label for="pa">País</label>
+    <select name="paises" id="pa">
+        <option>Seleccione</option>
+        <option value="arg">Argentina</option>
+        <option value="Chi">Chile</option>
+        <option value="Uru">Uruguay</option>
+    </select><br>
+    </fieldset>
+    <fieldset>
+
+       <legend>TECNOLOGIA</legend>
+
+       <label for="celu"> Marca de tu celular </label> 
+        <input type="text" name="Marcacelular" id="celu" maxlength="10"><br>
+
+        <label for="num"> Numero de celular </label> 
+        <input type="text" name="Numerocelu" id="num" maxlength="10"><br>
+
+        <label for="red">Red social favorita</label>
+        <select name="redesfav" id="red">
+            <option>Seleccione</option>
+            <option value="yk">Tiktok</option>
+            <option value="ins">INSTAGRAM</option>
+            <option value="fac">Facebook</option>
+        </select><br>
+
+        <label for="nomusuario"> Nombre de usuario de la red social que selecciono anteriormente  </label> 
+        <input type="text" name="nomusuario" id="nomusuario" maxlength="10"><br>
+
+        <label for="contra">contraseña</label>
+        <input type="password" name="contraseniausuario" id="contra"><br>
+  
+    </fieldset>
+
+    <fieldset>
+      <legend> ESCUELA </legend>
+
+      <label for="est"> Institución </label> 
+      <input type="text" name="institución" id="est" maxlength="20"><br>
+      
+      <label for="foto">Logo de la institución</label>
+      <input type="file" name="fotito" id="foto"><br>
+
+      <label for="prr">Curso</label>
+      <input type="text" name="cursoo" id="prr"><br>
+
+      <label for="es"> Institucón </label> 
+      <input type="text" name="institución" id="es" maxlength="20"><br>
+
+      <label for="teo"> Materia de teoria favorita </label> 
+      <input type="text" name="teoria" id="teo" maxlength="20"><br>
+
+      <label for="ta"> Materia de taller favorita </label> 
+      <input type="text" name="taller" id="ta" maxlength="20"><br>
+
+      <label for="carrera"> Nombre de la carrera que estas estudiando </label> 
+      <input type="text" name="nomcarrera" id="carrera" maxlength="20"><br>
+
+      <label> ¿te gusta la carrera que estas estudiando? </label>
+
+      <input type="radio" name="opinion" value="no" id="no" >
+      <label for="no">No</label>
+  
+      <input type="radio" name="opinion" value="si" id="si">
+      <label for="si"> Si </label><br>
+
+    </fieldset>
+
+    <fieldset>
+     <legend>OPINION PERSONAL</legend>
+     <label>¿De que otro tema te hubiese gustado hablar?</label><br>
+     <textarea name="marcado" id="mar" cols="25" rows="7">
+        breve opinion...
+      </textarea><br>
+     
+    </fieldset>
+
+      <input type="checkbox" name="acepto" value="sour" id="ac" >
+      <label for="ac">Acepto terminos y condiciones </label><br>
+
+      <input type="submit" name="subir" value="guardar">
+
+      <input type="submit" name="borrar" value="borrar">
+
+
+    </form>
+</body>
+</html>

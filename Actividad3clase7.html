@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar por entrada directa</title>
+</head>
+<body>
+<h2>Validar por entrada directa</h2>
+<form action="#" method="post" enctype="multipart/form-data">
+<fieldset>
+  <a>Enter the markup to validate</a><br>
+  <textarea name="marcado" id="mar" cols="25" rows="7">
+    holiwiisisisisi
+  </textarea><br>
+
+        <input type="radio" name="document" value="Validate full document" id="val" checked>
+        <label for="val">validate full document</label> <br>
+
+            <label for="Web">USE doctype</label>
+            <select name="Servidoresweb" id="Web">
+               <option> (detect automatically) </option>
+               <option value="pdf">pdf</option>
+               <option value="word">document.word</option>  
+            </select><br>
+    
+        
+         <input type="radio" name="document" value="Validate HTML fragment" id="fra" >
+        <label for="fra">validate HTML fragment </label><br>
+    
+            <label for="Web">USE doctype</label>
+              <input type="radio" name="hey" value="fragment" id="ht" checked >
+              <label for="ht">HTML4.01</label>
+              <input type="radio" name="hey" value="fragment" id="ml" >
+              <label for="ml">XHTML1.0</label>
+</fieldset>
+
+<h2>Options</h2>
+<fieldset>
+    <input type="radio" name="list" value="sequen" id="se" checked  >
+    <label for="se">list massages sequentially</label>
+    <input type="radio" name="list" value="error" id="er" >
+    <label for="er">Group error massages by type</label> <br>
+
+    <input type="checkbox" name="Show source" value="sour" id="so" >
+    <label for="so">Show source</label>
+    <input type="checkbox" name="Clean up markup with HTML.Tidy" value="markup" id="up" >
+    <label for="up">Clean up markup with HTML.Tidy</label>
+</fieldset><br>
+
+<input type="submit" name="CHECK" value="Check">
+
+
+</form>
+</body>
+</html>

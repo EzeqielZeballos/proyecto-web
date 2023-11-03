@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+<h1>RELLENA TU CV</h1>
+<form action="#" method="post" enctype="multipart/form-data">
+
+    <label for="nom"> Nombre </label> <br>
+    <input type="text" name="NombreUsuario" id="nom" maxlength="10"><br>
+    
+    <label for="ape"> Apellidos </label><br>
+    <input type="text" name="Apellidodelusuario" id="ape" size="40" ><br>
+
+    <label for="contra">contraseña</label><br>
+    <input type="password" name="contraseñausuario" id="contra"><br>
+
+    <label for="Docu"> DNI </label><br>
+    <input type="text" name="Apellidodelusuario" id="Docu" size="10" maxlength="8" ><br>
+
+    <label>Sexo</label><br>
+
+    <input type="radio" name="genero" value="Hombre" id="mas" checked>
+    <label for="mas">Hombre</label><br>
+
+    <input type="radio" name="genero" value="Mujer" id="fem">
+    <label for="fem"> Mujer </label><br>
+
+    <label for="perfil">Incluir mi foto</label><br>
+    <input type="file" name="fotoperfilusuario" id="perfil"><br>
+
+    <input type="checkbox" name="suscribir" value="aceptar" id="suscribir" checked >
+    <label for="suscribir">Suscribirme al boletin de novedades</label><br>
+
+    <input type="submit" name="enviar" value="Guardar cambios">
+    <input type="reset" name="borrar" value="Borrar cambios ">
+
+
+</form>
+
+    
+</body>
+</html>

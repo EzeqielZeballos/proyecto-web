@@ -1,0 +1,117 @@
+GNU/Linux
+
+Fedora (distribución Linux)
+
+
+##Fedora es una distribución Linux para propósitos generales basada en RPM, que se caracteriza por ser un sistema estable,la cual es mantenida gracias a una comunidad internacional de ingenieros, diseñadores gráficos y usuarios que informan de fallos y prueban nuevas tecnologías. Cuenta con el respaldo y la promoción de ##Red Hat.
+
+El proyecto no busca sólo incluir ##software libre gratuito y de código abierto, sino ser el líder en ese ámbito tecnológico. Algo que hay que destacar es que los desarrolladores de Fedora prefieren hacer cambios en las fuentes originales en lugar de aplicar los parches específicos en su distribución, de esta forma se asegura que las actualizaciones estén disponibles para todas las variantes de GNU/Linux. Max Spevack en una entrevista afirmó que: "Hablar de Fedora es hablar del rápido progreso del ##software libre y de código abierto." Durante sus primeras 6 versiones se llamó Fedora Core, debido a que solo incluía los paquetes más importantes del sistema operativo. La última versión es Fedora 16, puesta a disposición del público el 8 de noviembre del 2011.
+
+De acuerdo a ##DistroWatch, ##Fedora es la tercera distribución de GNU/Linux más popular, por detrás de ##Linux Mint y ##Ubuntu.
+
+
+Características
+
+Distribución
+
+El Proyecto Fedora se distribuye en muchas formas diferentes:
+
+* Fedora DVD - un DVD con todos los paquetes disponibles;
+* Medios Vivos (Live CD) - imágenes de CD o DVD que también pueden ser instalados en unidades USB;
+* Imagen de CD o USB - usado para ser instalado sobre HTTP, FTP o NFS;
+* Imagen de rescate en CD o USB - usado si alguna parte del sistema ha fallado y requiere ser reparado. También permite instalaciones desde Internet.
+
+
+Repositorios
+
+En las primeras 6 versiones había dos repositorios principales: El Fedora Core y el Fedora Extras. Fedora Core contenía todos los paquetes básicos que eran requeridos por el sistema operativo, así como otros que eran distribuidos con los CD o DVD de la instalación. Fedora Extras, el repositorio secundario que estaba incluido en Fedora Core 3 era mantenido por la comunidad y no estaba incluido en los discos de instalación. En ese entonces los repositorios eran:
+
+* main: contiene solamente los paquetes que cumplen los requisitos de la licencia de Ubuntu, y para los que hay soporte disponible por parte de su equipo. Éste está pensado para que incluya todo lo necesario para la mayoría de los sistemas Linux de uso general. Los paquetes de este componente poseen ayuda técnica garantizada y mejoras de seguridad oportunas.
+
+* restricted: contiene paquetes soportados por los desarrolladores de Ubuntu debido a su importancia, pero que no está disponible bajo ningún tipo de licencia libre para incluir en main. En este lugar se incluyen los paquetes tales como los controladores propietarios de algunas tarjetas gráficas, como por ejemplo, los de ATI y NVIDIA. El nivel de la ayuda es más limitado que para main, puesto que los desarrolladores pueden no tener acceso al código fuente.
+
+* universe: contiene una amplia gama de programas, que pueden o no tener una licencia restringida, pero que no recibe apoyo por parte del equipo de Ubuntu sino por parte de la comunidad. Esto permite que los usuarios instalen toda clase de programas en el sistema guardándolos en un lugar aparte de los paquetes soportados: main y restricted.
+
+* multiverse: contiene los paquetes sin soporte debido a que no cumplen los requisitos de software libre.
+
+
+Seguridad
+
+SELinux ("Security-Enhanced Linux") se destaca entre las características de seguridad de Fedora, pues implementa una gran variedad de políticas de seguridad, incluyendo control de acceso obligatorio (MAC "Mandatory Access Control"), a través de los Módulos de Seguridad de Linux que están en el núcleo Linux del sistema.
+
+La distribución está liderando las distribuciones que incorporan SELinux, habiéndolo introducido en Fedora Core 2. Sin embargo lo desactivó como elemento predeterminado, pues alteraba radicalmente la forma en que el sistema operativo funcionaba. Posteriormente fue activado por defecto en Fedora Core 3 introduciendo una política menos estricta. Fedora también tiene métodos propios para prevenir la sobrecarga del buffer y la utilización de rootkits. La verificación del buffer en tiempo de compilación, «Exec Shield» y restricciones en como la memoria del núcleo en /dev/mem puede ser accedida ayudan a prevenir esto.
+
+
+Galería
+
+### insertar las miniaturas aquí, enlazarlas con las imágenes de tamaño completo ###
+
+
+Distribuciones basadas en Fedora
+
+
+Si bien existen listas actualizadas de las Distribuciones basadas en Fedora podemos nombrar algunas como:
+
+* ##ASPLinux - una distribución rusa basada en Fedora que incorpora su propio instalador. ASPLinux incluye también controladores de código cerrado como NVIDIA y ATI, y soporta códecs propietarios de audio y video.
+* Aurora SPARC Linux - una o dos distribución basada en Fedora para la plataforma SPARC.
+* Berry Linux - una distribución Fedora de mediano tamaño que provee soporte para los idiomas inglés y japonés.
+* ##BLAG Linux and ##GNU - Distribución basada en Fedora que incluye solamente software libre (incluido el kernel Linux-libre)
+* Ekaaty - una distribución basada en Fedora de Brasil.
+* PLS Linux - una distribución basada en Fedora diseñada y desarrollada en Venezuela, que posee un alto desempeño en soluciones cliente - servidor, utilizada por la Administración Pública (Gobierno Venezolano).
+* Fox Linux - una distribución de Fedora hecha en Italia, diseñada para tareas de computación básicas como la navegación en Internet, la escritura e impresión de documentos, el uso de multimedia y la grabación de discos.
+* LinuxTLE - una distribución de Tailandia producida por NECTEC.
+   
+
+
+
+
+###Marcado básico de texto (esto no va en la página)###
+
+Palabras a resaltar
+
+Importante:
+
+distribución linux, Red Hat, software libre, código abierto, sistema operativo, DistroWatch, núcleo linux, Exec Shield.
+
+
+Muy importante:
+
+Fedora, GNU, RPM, Linux Mint, Ubuntu, SELinux.
+
+###Recuerden nada de esto va en la página###
+
+Citar la siguiente frase:
+
+"Hablar de Fedora es hablar del rápido progreso del software libre y de código abierto."
+
+
+Tachar:
+
+"gratuito"
+"puesta a disposición del público el 8 de noviembre del 2011"
+
+###Recuerden nada de esto va en la página###
+
+
+Links:
+
+software libre
+https://www.fsf.org/
+
+https://ubuntu.com/
+
+https://www.redhat.com/es
+
+https://distrowatch.com/
+
+http://www.gnu.org/home.es.html
+
+https://es.wikipedia.org/wiki/ASPLinux
+
+https://getfedora.org/
+
+https://es.wikipedia.org/wiki/BLAG_Linux_and_GNU
+
+https://www.linuxmint.com/
+
+
